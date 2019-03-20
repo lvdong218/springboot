@@ -27,6 +27,9 @@ public class GlobalExceptionHandler {
 
     @Bean
     public WebServerFactoryCustomizer<ConfigurableWebServerFactory> webServerFactoryWebServerFactoryCustomizer(){
+        /**
+         * java 1.8 新特性lamda表达式
+         */
         return (factory->{
             ErrorPage error404Page = new ErrorPage(HttpStatus.NOT_FOUND, "/404.do");
             factory.addErrorPages(error404Page);
