@@ -37,4 +37,8 @@ public class UsersController {
         iUserService.batchAdd(username,password);
         return "成功";
     }
+    public static void main(String[] args){
+        System.out.println("1".hashCode());
+        System.out.println("2wefrervg43rvrvr3r".hashCode());
+    }
 }

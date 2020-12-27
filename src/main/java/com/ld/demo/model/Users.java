@@ -4,7 +4,6 @@ public class Users {
     private Integer id;
 
     private String passwd;
-
     private String username;
 
     public Integer getId() {

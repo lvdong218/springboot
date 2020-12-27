@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * 异常处理类
  */
-@ControllerAdvice
+//@ControllerAdvice
 public class GlobalExceptionHandler {
     @ExceptionHandler(value = RuntimeException.class)
     @ResponseBody
